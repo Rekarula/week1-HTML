@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&family=Roboto:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(39, 39, 113);
+    border-radius: 5px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgba(58, 58, 129, 0.708), rgba(131, 60, 60, 0.601)),
+    url("../images/1.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container > input, .container button {
+    display: block;
+    margin: 1rem auto;
+}
+
+.container button {
+    width: 5rem;
+    padding: 0.rem;
+    color: aliceblue;
+    background-color: rgba(43, 43, 104, 0.789);
+}
+
+.container h3 {
+    margin: 2rem;
+    color: aliceblue;
+    text-transform: capitalize;
+
+}
+.container p {
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
