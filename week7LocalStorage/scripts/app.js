@@ -15,7 +15,7 @@ let imageUrlInStorage = localStorage.getItem("imageUrl");
 
 if(titleInStorage && imageUrlInStorage) {
     movieTitleToDisplay.textContent = titleInStorage;
-    container.style.backgroundImage = `linear-gradient(rgba(58, 58, 129, 0.708), rgba(131, 60, 60, 0.601)), 
+    container.style.backgroundImage = linear-gradient(rgba(58, 58, 129, 0.708), rgba(131, 60, 60, 0.601)), 
     `url("${imageUrlInStorage}")`;
 }
 
